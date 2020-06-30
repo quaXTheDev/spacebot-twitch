@@ -1,11 +1,11 @@
-# THIS IS A SELF HOSTED BOT, MY BROKE ASS ISN'T GONNA HOST THAT SJIT FOR YOU
+# THIS IS A SELF HOSTED BOT, MY BROKE ASS ISN'T GONNA HOST THAT SHIT FOR YOU
 
 # SPACEBOT-TWITCH
 This bot is a simple Twitch bot that does simple stuff like simple bots
 
 ### List Of Commands
 
-- Hello
+- Hello (a fuck ton more usage things)
   - responds with hello
 - !youtube
   - Sends your Youtube link to chat
@@ -17,9 +17,9 @@ This bot is a simple Twitch bot that does simple stuff like simple bots
   -  Sends your Discord link to chat
 - !github
   - Sends your (if not set, mine) github profile to chat (If you don't have a github account, please don't edit it to give me credit)
-- !commands
+- !commands (!komutlar)
   - Whiispers the list of commands to message author
-- !rules
+- !rules (!kurallar)
   - Whispers chat rules to message author
 
 
