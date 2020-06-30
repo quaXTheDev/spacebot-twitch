@@ -15,6 +15,13 @@ const client = new tmi.Client({
 	channels: [ process.env.channel ]
 });
 client.connect();
+
+var intervalmsgs = ["these", "are", "random", "messages", "sent", "on", "an", "interval", "change", "or", "add", "variables", "to", "customize"]
+var interval = setInterval(() => {
+	var msg = intervalmsgs[Math.floor(Math.random() * intervalmsgs.length)];
+	client.say("#" + process.env.channel, msg)
+}, 1000);
+
 client.on('message', (channel, tags, message, self) => {
 	if(self) return;
 	if(message.toLowerCase() === 'hello' || message.toLowerCase() === 'merhaba' || message.toLowerCase() === 'selam' || message.toLowerCase() === 'selam' || message.toLowerCase() === 'HeyGuys') {
