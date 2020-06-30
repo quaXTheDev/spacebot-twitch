@@ -1,0 +1,25 @@
+{
+  "name": "spacebot-twitch",
+  "version": "1.0.0",
+  "description": "open-source twitch bot",
+  "main": "src",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quaXTheDev/spacebot-twitch.git"
+  },
+  "author": "quaxthedev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quaXTheDev/spacebot-twitch/issues"
+  },
+  "homepage": "https://github.com/quaXTheDev/spacebot-twitch#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "tmi.js": "^1.5.0"
+  }
+}
