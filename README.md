@@ -40,11 +40,7 @@ This bot is a simple Twitch bot that does simple stuff like simple bots
   - give it a name
   - set the redirect link to http://localhost
   - create a new app and set the category to "Chat Bot"
-- Go to https://id.twitch.tv/oauth2/authorize
-    ?client_id=<your client ID>
-    &redirect_uri=http://localhost
-    &response_type=token
-    &scope=channel:moderate+chat:edit+chat:read+whispers:read+whispers:edit
+- Go to https://id.twitch.tv/oauth2/authorize?client_id=<your client ID>&redirect_uri=http://localhost&response_type=token&scope=channel:moderate+chat:edit+chat:read+whispers:read+whispers:edit
 - It might not look like it worked but the link should have something like "access_token= your token&scope", copy the part that should have your token
 - define the following variables on the env file
   - botname=the bot's account
