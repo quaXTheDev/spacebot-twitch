@@ -42,10 +42,15 @@ This bot is a simple Twitch bot that does simple stuff like simple bots
   - create a new app and set the category to "Chat Bot"
 - Go to https://id.twitch.tv/oauth2/authorize?client_id=<your client ID>&redirect_uri=http://localhost&response_type=token&scope=channel:moderate+chat:edit+chat:read+whispers:read+whispers:edit
 - It might not look like it worked but the link should have something like "access_token= your token&scope", copy the part that should have your token
+- install and configure mysql
 - define the following variables on the env file
   - botname=the bot's account
   - token=oauth: followed by the bot token
   - channel=the channel this bot will be running on
+  - server=localhost
+  - user=root
+  - pass= (whatever password you set on mysql)
+  - dbase= whatever you named your database
 - run the command "npm install" on the repos root directory
 - run the command "node ." to start the bot
 - configure it all you want I couldn't care less but if you do PogChamp stuff hmu on Discord: quax#6075 and if you did big stuff, just fork the repo
@@ -54,4 +59,4 @@ This bot is a simple Twitch bot that does simple stuff like simple bots
 
 
 ## To-Do
-- [ ] add point stuffs
+- [x] add point stuffs (commit coming soon probably)
