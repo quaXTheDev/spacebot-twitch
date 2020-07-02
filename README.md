@@ -51,3 +51,7 @@ This bot is a simple Twitch bot that does simple stuff like simple bots
 - configure it all you want I couldn't care less but if you do PogChamp stuff hmu on Discord: quax#6075 and if you did big stuff, just fork the repo
 
 - twitch.tv/ps_quax
+
+
+## To-Do
+- [ ] add point stuffs
